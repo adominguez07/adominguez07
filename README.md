@@ -1,147 +1,260 @@
+<div align="center">
+
 # Andres Dominguez
 
-### Computer Science @ University of South Florida
+### Computer Vision · Machine Learning · Autonomous Systems · Software Engineering
 
-**Computer Vision • Machine Learning • Autonomous Systems • Software Engineering**
+**B.S. Computer Science @ University of South Florida · May 2027**
 
-I'm a Computer Science student at the **University of South Florida**, graduating in **May 2027**, focused on building intelligent systems that combine **computer vision, machine learning, robotics, and software engineering**.
+Building intelligent systems that can **see, reason, and interact with the real world.**
 
-I'm especially interested in applying AI to **autonomous systems, defense technology, cybersecurity, accessibility, and real-world perception problems**.
+[LinkedIn](https://www.linkedin.com/in/andresdominguez07) · [GitHub](https://github.com/adominguez07) · **[adominguez3567@gmail.com](mailto:adominguez3567@gmail.com)**
 
-Currently seeking internship and early-career opportunities in **Computer Vision, Machine Learning, AI, Data Science, and Software Engineering**.
+</div>
 
 ---
 
-## Featured Projects
+## `> about_me`
+
+```python
+class AndresDominguez:
+    education = "B.S. Computer Science @ USF"
+    graduation = "May 2027"
+
+    interests = [
+        "Computer Vision",
+        "Machine Learning",
+        "Autonomous Systems",
+        "Data Science",
+        "AI Agents"
+    ]
+
+    currently_building = "Autonomous Roof Inspection AI"
+
+    looking_for = [
+        "Computer Vision Internships",
+        "Machine Learning / AI Roles",
+        "Data Science Roles",
+        "Defense & Autonomous Systems"
+    ]
+```
+
+---
+
+## Computer Vision Lab
+
+My main interest is building systems that turn raw sensor or image data into useful decisions.
+
+```text
+ CAMERA / SENSOR
+       │
+       ▼
+ ┌─────────────┐
+ │  PERCEPTION │  OpenCV · MediaPipe · YOLO
+ └──────┬──────┘
+        │
+        ▼
+ ┌─────────────┐
+ │ ML / LOGIC  │  PyTorch · TensorFlow · Scikit-Learn
+ └──────┬──────┘
+        │
+        ▼
+ ┌─────────────┐
+ │   ACTION    │  Detection · Mapping · Automation
+ └─────────────┘
+```
+
+---
+
+# Featured Work
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### Roof Inspection AI
 
-**Python • PyTorch • YOLO • OpenCV • Computer Vision**
+**Computer Vision · Object Detection · Drones**
 
-Developing a computer vision system for detecting roof damage from aerial drone imagery.
+Developing an aerial inspection system that detects roof abnormalities from drone imagery and builds toward automated damage mapping.
 
-* Training and evaluating YOLO-based object detection models on aerial roof imagery
-* Experimenting with high-resolution and small-object detection architectures
-* Building toward automated roof mapping with damage Points of Interest
-* Designed as a proof-of-concept for future autonomous drone inspection
+**Pipeline**
 
-**Current focus:** improving recall and small-damage detection performance.
+`Drone Imagery` → `YOLO` → `Damage Detection` → `POIs` → `Roof Map`
 
----
+**Current research**
 
-### [Safe-Sight](https://github.com/adominguez07/Safe-Sight)
+* Small-object detection
+* High-resolution aerial imagery
+* Recall optimization
+* YOLO P2 architectures
+* Autonomous inspection workflows
 
-**Python • OpenCV • MediaPipe • Computer Vision**
+</td>
 
-Real-time driver monitoring system designed to detect signs of **drowsiness, distraction, and potential medical emergencies**.
-
-* Built real-time facial and head-position detection pipelines
-* Achieved approximately **95% detection accuracy** for eyelid and head-tilt behaviors
-* Optimized the vision pipeline for real-time performance
-* Designed around safety-critical computer vision applications
-
----
+<td width="50%" valign="top">
 
 ### [Unbound](https://github.com/adominguez07/Unbound)
 
-**Python • MediaPipe • OpenCV • FastAPI • PyWebView**
+**Computer Vision · Accessibility · HCI**
 
-Accessibility software that allows users with limited mobility to control a computer using **facial movements and voice commands**.
+Hands-free computer control using facial movement, gestures, and voice.
 
-* Tracks facial landmarks using MediaPipe
-* Converts head movement into real-time cursor control
-* Supports configurable facial gestures for clicking, scrolling, dragging, and typing
-* Implements per-user calibration and adjustable gesture thresholds
-* Includes voice commands and dictation capabilities
+**Pipeline**
 
----
+`Webcam` → `MediaPipe` → `52 Blendshapes` → `Gesture Engine` → `Mouse Control`
 
-### Shadow Vision
+**Features**
 
-**Python • Computer Vision • Machine Learning**
+* Nose-based cursor tracking
+* Facial gesture recognition
+* Per-user calibration
+* Voice commands & dictation
+* Real-time threshold tuning
 
-Computer vision system developed for **ShellHacks 2025** that identifies hand-puppet characters from camera input.
+</td>
+</tr>
 
-* Achieved **90%+ identification accuracy**
-* Built and trained the image-recognition pipeline
-* Selected as a **ShellHacks 2025 finalist**
+<tr>
+<td width="50%" valign="top">
 
----
+### [Safe-Sight](https://github.com/adominguez07/Safe-Sight)
 
-### Pantheon
+**Computer Vision · Driver Safety**
 
-**Python • AI Agents • Cybersecurity • Distributed Systems**
+Real-time vision system designed to detect signs of driver distraction, drowsiness, and possible medical emergencies.
 
-Multi-agent cyber-response system designed to coordinate autonomous security agents during simulated incidents.
+**Focus**
 
-* Designed a **9-agent AI response architecture**
-* Reduced simulated incident-response time by **80%+**
-* Reduced simulated downtime by approximately **50%**
-* Achieved **sub-50 ms inter-agent messaging**
+* Facial tracking
+* Eye-state detection
+* Head-position analysis
+* Real-time inference
+* Safety-critical CV
 
----
+</td>
+
+<td width="50%" valign="top">
 
 ### [SweetMate](https://github.com/adominguez07/SweetMate)
 
-**React • TypeScript • FastAPI • Python**
+**Data · FastAPI · React · TypeScript**
 
-Full-stack relocation and budgeting application that helps users estimate take-home income, determine an affordable rent range, and search for apartments matching their budget.
+Full-stack relocation and budgeting platform that estimates take-home income, calculates realistic housing budgets, and searches matching apartments.
 
-* React + TypeScript frontend
-* FastAPI backend
-* Salary and hourly-income calculations
-* Household budgeting and custom rent splitting
-* Apartment filtering and search workflow
+**Stack**
 
----
+`React` · `TypeScript` · `FastAPI` · `Python`
 
-## Technical Skills
+**Features**
 
-**Languages**
-Python • C++ • Java • SQL • JavaScript • TypeScript • C#
+* Income & tax estimation
+* Household budgeting
+* Rent splitting
+* Apartment filtering
 
-**Computer Vision & Machine Learning**
-PyTorch • TensorFlow • Keras • OpenCV • MediaPipe • Scikit-Learn • Hugging Face
-
-**Backend & Web**
-FastAPI • Flask • React • Next.js • Node.js • REST APIs
-
-**Cloud & Development**
-AWS • Docker • Linux • Git • GitHub
-
-**Currently Exploring**
-Autonomous Systems • Robotics • AI Agents • Small-Object Detection • Cybersecurity
+</td>
+</tr>
+</table>
 
 ---
 
-## What I'm Working On
+## Latest Model Experiment
 
-My current technical focus is on systems that combine **AI with real-world perception and autonomy**, particularly:
+### Roof Damage Detection — YOLO
 
-* Improving aerial object detection for autonomous roof inspection
-* Computer vision for robotics and autonomous systems
-* Real-time edge and embedded AI applications
-* Agentic AI and multi-agent systems
-* Applied machine learning for security and defense applications
+| Metric        | Latest Run |
+| :------------ | ---------: |
+| **Precision** |    `64.7%` |
+| **Recall**    |    `43.5%` |
+| **mAP@50**    |    `48.7%` |
+| **mAP@50:95** |    `19.7%` |
 
----
+```text
+Precision   █████████████░░░░░░░   64.7%
+Recall      █████████░░░░░░░░░░░   43.5%
+mAP@50      ██████████░░░░░░░░░░   48.7%
+```
 
-## Education
-
-**University of South Florida**
-Bachelor of Science in Computer Science
-Expected Graduation: **May 2027**
-
-Relevant areas of study include:
-
-`Data Structures` `Computer Architecture` `Machine Learning` `Artificial Intelligence` `Robotics` `Computer Vision`
+**Current objective:** increase recall and improve detection of small roof abnormalities while controlling false positives.
 
 ---
 
-## Connect
+## Robotics & Autonomous Systems
 
-**Email:** [adominguez3567@gmail.com](mailto:adominguez3567@gmail.com)
+### [Control of Mobile Robots](https://github.com/adominguez07/CAI5815-ControlOfMobileRobots)
 
-**LinkedIn:** [Andres Dominguez](https://www.linkedin.com/in/andresdominguez3567)
+Coursework and experiments involving autonomous mobile robot control.
 
-I'm always interested in discussing **computer vision, AI/ML, robotics, autonomous systems, and software engineering opportunities**.
+```text
+Sensors → State Estimation → Control Logic → Robot Motion
+```
+
+My long-term goal is to combine this robotics experience with computer vision to build **fully autonomous perception-and-action systems**.
+
+---
+
+## Technical Toolkit
+
+### AI / Computer Vision
+
+`PyTorch` `TensorFlow` `Keras` `YOLO` `OpenCV` `MediaPipe` `Scikit-Learn` `Hugging Face`
+
+### Data
+
+`Python` `Pandas` `NumPy` `SQL` `Matplotlib`
+
+### Software Engineering
+
+`C++` `C` `Java` `Python` `JavaScript` `TypeScript` `C#`
+
+### Web & APIs
+
+`React` `Next.js` `Node.js` `FastAPI` `Flask` `REST APIs`
+
+### Systems & Tools
+
+`Linux` `Git` `GitHub` `Docker` `AWS`
+
+---
+
+## Current Research Queue
+
+```text
+[ACTIVE]   Roof Damage Detection
+           └── Improve small-object recall
+
+[NEXT]     Roof Reconstruction & Mapping
+           └── Convert detections into geographic POIs
+
+[NEXT]     Autonomous Drone Inspection
+           └── Perception + waypoint planning
+
+[LEARNING] Agentic AI
+           └── ReAct · Tool Use · Multi-Agent Systems
+```
+
+---
+
+## Areas I'm Interested In
+
+```text
+Computer Vision      ████████████████████
+Machine Learning     ████████████████████
+Autonomous Systems   ███████████████████░
+Data Science         ██████████████████░░
+AI Agents            █████████████████░░░
+Backend Systems      ███████████████░░░░░
+```
+
+---
+
+<div align="center">
+
+### Building systems that move ML beyond the notebook and into the real world.
+
+**Computer Vision · AI/ML · Robotics · Autonomous Systems**
+
+[LinkedIn](https://www.linkedin.com/in/andresdominguez07) · [GitHub](https://github.com/adominguez07)
+
+</div>
