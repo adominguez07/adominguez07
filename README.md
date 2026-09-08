@@ -142,6 +142,6 @@ Relevant areas of study include:
 
 **Email:** [adominguez3567@gmail.com](mailto:adominguez3567@gmail.com)
 
-**LinkedIn:** [Andres Dominguez](linkedin.com/in/andresdominguez07)
+**LinkedIn:** [Andres Dominguez](https://www.linkedin.com/in/andresdominguez07)
 
 I'm always interested in discussing **computer vision, AI/ML, robotics, autonomous systems, and software engineering opportunities**.
