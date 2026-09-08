@@ -1,66 +1,145 @@
-<p align="right">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=adominguez07.visitor-badge&left_color=red&right_color=green&left_text=visitors">
-</p>
+# Andres Dominguez
 
-<h1 align="center">
-    <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=3500&pause=1000&color=008000&center=true&vCenter=true&random=false&width=500&lines=Hello!%F0%9F%91%8B;I'm+Andres+Dominguez" alt="Typing SVG" />
-    </a>
-</h1>
+### Computer Science @ University of South Florida
 
-<h1 align="center" margin-bottom:'10px'>Full Stack Software Engineer</h1>
+**Computer Vision • Machine Learning • Autonomous Systems • Software Engineering**
 
-<br />
+I'm a Computer Science student at the **University of South Florida**, graduating in **May 2027**, focused on building intelligent systems that combine **computer vision, machine learning, robotics, and software engineering**.
 
+I'm especially interested in applying AI to **autonomous systems, defense technology, cybersecurity, accessibility, and real-world perception problems**.
 
-<br />
-<div align="center">
-    🎓 I'm currently studying at <strong>University of South Florida: B.S in Computer Science(GPA: 3.5/4.0)</strong><br /><br />
-    🌱 I'm actively learning <strong>Advanced Data Structures, Computer Architecture, and Machine Learning Techniques</strong><br /><br />
-    👯 I'm open to collaborative projects in <strong>Full-Stack Development, AI Model Training and Web Developmet</strong><br /><br />
-    📚 I'm certified in <strong>Python, C#, Java, JavaScript, React, Next.js, Tailwind, Typescript, MySQl, HTML & CSS</strong></br /><br />
-</div>
-<br />
-<div align="center">
-  <a href="mailto:adominguez3567@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red target="_blank" />
-  </a>
-  <a href="www.linkedin.com/in/andres-dominguez-4a229a2bb" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
-  </a>
-  <a href="https://discord.gg/init" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" target="_blank" />
-  </a>
-    <a href="www.linkedin.com/in/andres-dominguez-4a229a2bb" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" />
-  </a>
-</div>
+Currently seeking internship and early-career opportunities in **Computer Vision, Machine Learning, AI, Data Science, and Software Engineering**.
 
-<br />
+---
 
-<h2 align="center">🛠️Languages-Frameworks-Tools🛠️</h2>
-<br />
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,github,python,javascript,express,firebase,mongodb,c,java"/><br />
-    <img src="https://skillicons.dev/icons?i=react,r,bootstrap,mui,mysql,flask,html,css,vscode,figma,git"/>
-  </a>
-</div>
+## Featured Projects
 
-<br />
+### Roof Inspection AI
 
-<h2 align="center">⚡ Stats ⚡</h2>
+**Python • PyTorch • YOLO • OpenCV • Computer Vision**
 
-<br>
-<div align=center>
+Developing a computer vision system for detecting roof damage from aerial drone imagery.
 
-  <img width="420" height="165" src="https://streak-stats.demolab.com/?user=adominguez07&theme=react&border_radius=10" alt="streak stats"/>
+* Training and evaluating YOLO-based object detection models on aerial roof imagery
+* Experimenting with high-resolution and small-object detection architectures
+* Building toward automated roof mapping with damage Points of Interest
+* Designed as a proof-of-concept for future autonomous drone inspection
 
-  <img width=390 src="https://github-readme-stats.vercel.app/api?username=adominguez07&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
-  <br/>
-  <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adominguez07&Langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
+**Current focus:** improving recall and small-damage detection performance.
 
-  </div>
+---
 
-<br/><br/>
-<br/>
+### [Safe-Sight](https://github.com/adominguez07/Safe-Sight)
+
+**Python • OpenCV • MediaPipe • Computer Vision**
+
+Real-time driver monitoring system designed to detect signs of **drowsiness, distraction, and potential medical emergencies**.
+
+* Built real-time facial and head-position detection pipelines
+* Achieved approximately **95% detection accuracy** for eyelid and head-tilt behaviors
+* Optimized the vision pipeline for real-time performance
+* Designed around safety-critical computer vision applications
+
+---
+
+### [Unbound](https://github.com/adominguez07/Unbound)
+
+**Python • MediaPipe • OpenCV • FastAPI • PyWebView**
+
+Accessibility software that allows users with limited mobility to control a computer using **facial movements and voice commands**.
+
+* Tracks facial landmarks using MediaPipe
+* Converts head movement into real-time cursor control
+* Supports configurable facial gestures for clicking, scrolling, dragging, and typing
+* Implements per-user calibration and adjustable gesture thresholds
+* Includes voice commands and dictation capabilities
+
+---
+
+### Shadow Vision
+
+**Python • Computer Vision • Machine Learning**
+
+Computer vision system developed for **ShellHacks 2025** that identifies hand-puppet characters from camera input.
+
+* Achieved **90%+ identification accuracy**
+* Built and trained the image-recognition pipeline
+* Selected as a **ShellHacks 2025 finalist**
+
+---
+
+### Pantheon
+
+**Python • AI Agents • Cybersecurity • Distributed Systems**
+
+Multi-agent cyber-response system designed to coordinate autonomous security agents during simulated incidents.
+
+* Designed a **9-agent AI response architecture**
+* Reduced simulated incident-response time by **80%+**
+* Reduced simulated downtime by approximately **50%**
+* Achieved **sub-50 ms inter-agent messaging**
+
+---
+
+### [SweetMate](https://github.com/adominguez07/SweetMate)
+
+**React • TypeScript • FastAPI • Python**
+
+Full-stack relocation and budgeting application that helps users estimate take-home income, determine an affordable rent range, and search for apartments matching their budget.
+
+* React + TypeScript frontend
+* FastAPI backend
+* Salary and hourly-income calculations
+* Household budgeting and custom rent splitting
+* Apartment filtering and search workflow
+
+---
+
+## Technical Skills
+
+**Languages**
+Python • C++ • Java • SQL • JavaScript • TypeScript • C#
+
+**Computer Vision & Machine Learning**
+PyTorch • TensorFlow • Keras • OpenCV • MediaPipe • Scikit-Learn • Hugging Face
+
+**Backend & Web**
+FastAPI • Flask • React • Next.js • Node.js • REST APIs
+
+**Cloud & Development**
+AWS • Docker • Linux • Git • GitHub
+
+**Currently Exploring**
+Autonomous Systems • Robotics • AI Agents • Small-Object Detection • Cybersecurity
+
+---
+
+## What I'm Working On
+
+My current technical focus is on systems that combine **AI with real-world perception and autonomy**, particularly:
+
+* Improving aerial object detection for autonomous roof inspection
+* Computer vision for robotics and autonomous systems
+* Real-time edge and embedded AI applications
+* Agentic AI and multi-agent systems
+* Applied machine learning for security and defense applications
+
+---
+
+## Education
+
+**University of South Florida**
+Bachelor of Science in Computer Science
+Expected Graduation: **May 2027**
+
+Relevant areas of study include:
+
+`Data Structures` `Computer Architecture` `Machine Learning` `Artificial Intelligence` `Robotics` `Computer Vision`
+
+---
+
+## Connect
+
+**Email:** [adominguez3567@gmail.com](mailto:adominguez3567@gmail.com)
+
+I'm always interested in discussing **computer vision, AI/ML, robotics, autonomous systems, and software engineering opportunities**.
